@@ -2,7 +2,7 @@
 
 Go HTTP API for the Kanban app — chi router, Postgres (pgx/v5), JWT, optional Google OAuth.
 
-> This repo is a **submodule** of [kanban-console-pane](https://github.com/Tung-dev0/kanban-console-pane) (control plane). Org-level CLAUDE.md, agents, slash commands, and MCP config live there.
+> This repo is a **submodule** of [kanban-control-plane](https://github.com/Tung-dev0/kanban-control-plane) (control plane). Org-level CLAUDE.md, agents, slash commands, and MCP config live there.
 
 ## Quick start
 ```bash
@@ -11,7 +11,7 @@ DATABASE_URL=postgres://todo:todo@localhost:5432/todo?sslmode=disable \
 JWT_SECRET=dev make run            # listens on :8080
 ```
 
-Or via the parent compose (preferred): see `kanban-console-pane`.
+Or via the parent compose (preferred): see `kanban-control-plane`.
 
 ## API
 See `doc/spec.md` (in the control plane) or `README.md` here for the endpoint table.
